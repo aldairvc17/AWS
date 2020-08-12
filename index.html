@@ -9,6 +9,12 @@
 	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
 	<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+	<script src="js/smooth-scroll.min.js"></script>
+	<script>
+		var scroll = new SmoothScroll('a[href*="#"]', {
+			speed: 500
+		});
+	</script>
 	<title>AWS Girls Perú</title>
 </head>
 
@@ -25,22 +31,22 @@
 				<div class="collapse navbar-collapse mb-auto" id="navbarNav">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item ">
-							<a class="nav-link" href="#">Meetups</a>
+							<a class="nav-link" href="#section1">Meetups</a>
 						</li>
-						<li class="nav-item">
+						<!-- <li class="nav-item">
 							<a class="nav-link" href="#">Integrantes</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#">Speakers</a>
+						</li> -->
+						<li class="nav-item">
+							<a class="nav-link" href="#section2" >Voluntarios</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#" >Voluntarios</a>
+							<a class="nav-link" href="#section3">Sponsors</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#" >Sponsors</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#" >Contacto</a>
+							<a class="nav-link" href="#section4">Contacto</a>
 						</li>
 					</ul>
 				</div>
@@ -55,7 +61,8 @@
 					<div class="span-text">
 						<span>¿Quieres apoyarnos o ser parte de nuestra comunidad?</span>
 					</div>
-					<button type="button" class="btn btn-contact">Contáctanos</button>
+					
+					<a href="mailto:awsgirlspe@gmail.com?Subject=Interesado%20desde%20la%20web"><button type="button" class="btn btn-contact">Contáctanos</button></a>
 					<div>
 						<div class="row">
 							<div class="col div-icon-header">
@@ -93,7 +100,7 @@
 		</div>
 	</div>
 	
-	<section class="section-community">
+	<section class="section-community" id="section1">
 		<div class="container text-center">
 			<div class="div-span-ligth">
 				<span class="span-ligth">
@@ -133,7 +140,7 @@
 		</div>
 	</section>
 
-	<section class="section-events">
+	<!-- <section class="section-events">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6">
@@ -180,11 +187,11 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 
 	<div class="container">
 		<div class="div-twitch">
-			Guardamos todas nuestras transmisiones en <a href=""><span>nuestra cuenta de twitch</span></a>. <br> ¡Puedes revisarlas en cualquier momento! 
+			Guardamos todas nuestras transmisiones en <a href="https://www.twitch.tv/usergroup_awsgirlsperu"><span>nuestra cuenta de twitch</span></a>. <br> ¡Puedes revisarlas en cualquier momento! 
 		</div>
 	</div>
 
@@ -240,7 +247,7 @@
 		</div>
 	</div> -->
 
-	<div class="section-volunteers mb-5">
+	<div class="section-volunteers mb-5" id="section2">
 		<div class="container text-center">
 			<div class="div-span-ligth">
 				<span class="span-ligth">
@@ -257,7 +264,7 @@
 						</div>
 						<div class="ml-3">
 							<p>Liz Ruelas</p>
-							<a href="">
+							<a href="https://www.linkedin.com/in/liz-ruelas-borda/" target="_blank">
 								<img class="img-linkedin" src="assets/img/linkedin-icon.png" alt="">
 							</a>
 						</div>
@@ -266,11 +273,11 @@
 				<div class="col-sm-4 ">
 					<div class="card-volunteers">
 						<div>
-							<img  class="img-photo" src="assets/img/volunteers/photo-linkedin.jpeg" alt="">
+							<img  class="img-photo" src="assets/img/volunteers/doris.jpeg" alt="">
 						</div>
 						<div class="ml-3">
-							<p>Liz Ruelas</p>
-							<a href="">
+							<p>Doris Manrique</p>
+							<a href="https://www.linkedin.com/in/dorismanrique/" target="_blank">
 								<img class="img-linkedin" src="assets/img/linkedin-icon.png" alt="">
 							</a>
 						</div>
@@ -279,11 +286,11 @@
 				<div class="col-sm-4 ">
 					<div class="card-volunteers">
 						<div>
-							<img  class="img-photo" src="assets/img/volunteers/photo-linkedin.jpeg" alt="">
+							<img  class="img-photo" src="assets/img/volunteers/isabel.jpeg" alt="">
 						</div>
 						<div class="ml-3">
-							<p>Liz Ruelas</p>
-							<a href="">
+							<p>Isabel Cadillo</p>
+							<a href="https://www.linkedin.com/in/isabelcadillo/" target="_blank">
 								<img class="img-linkedin" src="assets/img/linkedin-icon.png" alt="">
 							</a>
 						</div>
@@ -295,11 +302,11 @@
 				<div class="col-sm-4 ">
 					<div class="card-volunteers">
 						<div>
-							<img  class="img-photo" src="assets/img/volunteers/photo-linkedin.jpeg" alt="">
+							<img  class="img-photo" src="assets/img/volunteers/nefi.jpeg" alt="">
 						</div>
 						<div class="ml-3">
-							<p>Liz Ruelas</p>
-							<a href="">
+							<p>Nefi Arroyo Ayzana</p>
+							<a href="https://www.linkedin.com/in/nefiarroyo/" target="_blank">
 								<img class="img-linkedin" src="assets/img/linkedin-icon.png" alt="">
 							</a>
 						</div>
@@ -308,11 +315,11 @@
 				<div class="col-sm-4 ">
 					<div class="card-volunteers">
 						<div>
-							<img  class="img-photo" src="assets/img/volunteers/photo-linkedin.jpeg" alt="">
+							<img  class="img-photo" src="assets/img/volunteers/walter.jpeg" alt="">
 						</div>
 						<div class="ml-3">
-							<p>Liz Ruelas</p>
-							<a href="">
+							<p>Walter Levano</p>
+							<a href="https://www.linkedin.com/in/walter-levano-mba-devops-itil-cobit-cloudf-04a27553/" target="_blank">
 								<img class="img-linkedin" src="assets/img/linkedin-icon.png" alt="">
 							</a>
 						</div>
@@ -321,11 +328,53 @@
 				<div class="col-sm-4 ">
 					<div class="card-volunteers">
 						<div>
-							<img  class="img-photo" src="assets/img/volunteers/photo-linkedin.jpeg" alt="">
+							<img  class="img-photo" src="assets/img/volunteers/bianca.jpeg" alt="">
 						</div>
 						<div class="ml-3">
-							<p>Liz Ruelas</p>
-							<a href="">
+							<p>Bianca Torres</p>
+							<a href="https://www.linkedin.com/in/bianca-torres-chumbes/" target="_blank">
+								<img class="img-linkedin" src="assets/img/linkedin-icon.png" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-4 ">
+					<div class="card-volunteers">
+						<div>
+							<img  class="img-photo" src="assets/img/volunteers/kiara.jpeg" alt="">
+						</div>
+						<div class="ml-3">
+							<p>Kiara Ezquerra Ferruzo</p>
+							<a href="https://www.linkedin.com/in/kiara-ezquerra-ferruzo-91588a120/" target="_blank">
+								<img class="img-linkedin" src="assets/img/linkedin-icon.png" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 ">
+					<div class="card-volunteers">
+						<div>
+							<img  class="img-photo" src="assets/img/volunteers/jenny.jpeg" alt="">
+						</div>
+						<div class="ml-3">
+							<p>Jenny Lucia Vega</p>
+							<a href="https://www.linkedin.com/in/jennyvegag/" target="_blank">
+								<img class="img-linkedin" src="assets/img/linkedin-icon.png" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 ">
+					<div class="card-volunteers">
+						<div>
+							<img  class="img-photo" src="assets/img/volunteers/ada.jpeg" alt="">
+						</div>
+						<div class="ml-3">
+							<p>Ada Reida Parhuana</p>
+							<a href="https://www.linkedin.com/in/ada-reida-parhuana-agama-a38964175/" target="_blank">
 								<img class="img-linkedin" src="assets/img/linkedin-icon.png" alt="">
 							</a>
 						</div>
@@ -337,7 +386,7 @@
 	</div>
 
 
-	<div class="section-sponsors mb-5">
+	<div class="section-sponsors mb-5" id="section3">
 		<div class="container text-center">
 			<div class="div-span-ligth">
 				<span class="span-ligth">
@@ -382,24 +431,108 @@
 		</div>
 	</div>
 
-	<div class="section-contact">
-		<div class="container">
+	<div class="section-contact" id="section4">
+		<div class="container py-6">
 			<div class="row">
 				<div class="col-sm-6">
-					<div>
+					<div class="form-contact">
 						<h5>¡Forma parte de nuestra comunidad!</h5>
-						<p>Si deseas ser sponsor, speaker o voluntario, déjanos tus datos para contactarte.</p>
+						<p class="p-form">Si deseas ser sponsor, speaker o voluntario, déjanos tus datos para contactarte.</p>
 
-						<form action=""></form>
+						<form action="mailto:awsgirlspe@gmail.com?Subject=Interesado%20desde%20la%20web" method="post" name="form1">
+							<div class="form-row">
+								<div class="form-group col-md-6">
+									<label for="nombre" >Nombre</label>
+									<input type="text" class="form-control" name="Nombre" id="inputName" placeholder="">
+								</div>
+								<div class="form-group col-md-6">
+									<label >Celular</label>
+									<input type="text" class="form-control" name="Celular" id="inputPhone" placeholder="">
+								</div>
+							</div>
+							<div class="form-group">
+								<label >Correo</label>
+								<input type="email" class="form-control" name="Correo" id="inputEmail" placeholder="">
+							</div>
+
+							
+							<fieldset class="form-group">
+								<div class="row">
+									<label class="ml-3">Quisiera ser:</label>
+									<div class="col-sm-12 d-flex">
+										
+										<div class="form-check">
+											<input class="form-check-input" type="radio" name="Quisiera-ser" id="gridRadios1" value="Voluntario" checked>
+											<label class="form-check-label" for="gridRadios1">
+												Voluntario
+											</label>
+										</div>
+										<div class="form-check">
+											<input class="form-check-input" type="radio" name="Quisiera-ser" id="gridRadios2" value="Sponsor">
+											<label class="form-check-label" for="gridRadios2">
+												Sponsor
+											</label>
+										</div>
+										<div class="form-check">
+											<input class="form-check-input" type="radio" name="Quisiera-ser" id="gridRadios3" value="Speaker">
+											<label class="form-check-label" for="gridRadios2">
+												Speaker
+											</label>
+										</div>
+										
+								
+								</div>
+							</fieldset>
+
+							<div class="d-flex">
+								<button type="submit" class="btn btn-register btn-send-email">Enviar</button>
+							</div>
+						</form>
 					</div>
 				</div>
 				<div class="col-sm-6">
-					2
+					<div>
+						<h5>Síguenos en nuestras redes</h5>
+						<p class="p-form">Siempre compartimos posts interesantes sobre nuestros meetups e integrantes, ¡así que no te los pierdas!</p>
+						<div class="row">
+							<div class="div-redes">
+								<img class="mx-3" src="assets/img/facebook-icon.png" alt="">
+								<a class="span-redes" href="https://www.facebook.com/awsgirls/" target="_blank">AWS Girls</a>
+							</div>
+						</div>
+						<div class="row">
+							<div class="div-redes">
+								<img class="mx-3" src="assets/img/linkedin-icon 2.png" alt="">
+								<a class="span-redes" href=" https://www.linkedin.com/company/aws-girls-user-group-peru/" target="_blank">AWS User Group Perú</a>
+							</div>
+						</div>
+						<div class="row">
+							<div class="div-redes">
+								<img class="mx-3" src="assets/img/twitch-rounded.png" alt="">
+								<a class="span-redes" href="https://www.twitch.tv/usergroup_awsgirlsperu" target="_blank">AWSUGPeru</a>
+							</div>
+						</div>
+						<div class="row">
+							<div class="div-redes">
+								<img class="mx-3" src="assets/img/twitter-icon.png" alt="">
+								<a class="span-redes" href=" https://twitter.com/AwsGirls" target="_blank">AWS Girls</a>
+							</div>
+						</div>
+				
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
+	<div class="footer py-4">
+		<div class="container text-center">
+			Designed with love by <span class="name-bold">Kiara Ezquerra Ferruzo</span>
+		</div>
+		<div class="container text-center">
+			Developed by <span class="name-bold">Liz Ruelas Borda</span>
+		</div>
+	</div>
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
