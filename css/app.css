@@ -2,6 +2,10 @@ body {
   font-family: 'Raleway', sans-serif;
   
 }
+
+.img-principal {
+  width: 100%;
+}
 .section-header {
   background-image: url(main-background.png);
   background-repeat: no-repeat;
@@ -65,7 +69,7 @@ hr {
 
 .img-icon-header {
   height: 50px;
-  width: 50px;
+  width: 100%;
 }
 
 .pb-xl {
@@ -240,8 +244,8 @@ h6 {
   height: auto;
   border-radius: 18px;
   border: solid 1px #c4c4c4;
-  padding: 30px 48px;
-  margin:auto;
+  padding: 30px ;
+  margin: 40px auto;
 }
 
 .d-flex > div{
@@ -334,4 +338,13 @@ a {
 .name-bold {
   color: #b16bff;
   font-weight: 600;
+}
+
+@media (max-width: 576px) {
+  .form-contact {
+    width: auto;
+   
+    /* padding: 30px 48px;
+    margin: auto; */
+}
 }
