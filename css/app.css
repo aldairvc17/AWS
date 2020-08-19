@@ -4,7 +4,8 @@ body {
 }
 
 .img-principal {
-  width: 100%;
+  width: 90%;
+  height: 90%;
 }
 .section-header {
   background-image: url(main-background.png);
@@ -69,7 +70,7 @@ hr {
 
 .img-icon-header {
   height: 50px;
-  width: 100%;
+
 }
 
 .pb-xl {
@@ -124,9 +125,10 @@ hr {
   -webkit-box-shadow: 1px 7px 15px 1px rgba(238,238,238,1);
   -moz-box-shadow: 1px 7px 15px 1px rgba(238,238,238,1);
   box-shadow: 1px 7px 15px 1px rgba(238,238,238,1);
-  padding: 20px 35px;
+  padding: 20px;
   margin: auto;
-  max-width: 350px;
+  max-width: 250px;
+  margin-bottom: 25px;
 }
 
 h6 {
@@ -339,6 +341,29 @@ a {
   color: #b16bff;
   font-weight: 600;
 }
+
+.section-becas{
+  margin-top: 80px;
+  background-color: #FCB44D;
+  font-weight: 700;
+}
+
+.div-becas > p {
+  font-weight: 400;
+}
+
+.div-becas > a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.div-becas {
+  text-align: center;
+  padding: 23px;
+  font-size: 18px;
+  color: #ffffff;
+}
+
 
 @media (max-width: 576px) {
   .form-contact {
